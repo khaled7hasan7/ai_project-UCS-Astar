@@ -30,7 +30,8 @@ Welcome to the Palestine Map Project! This project is a Java-based program that 
 
 You have three files: Roads.csv, Cities.csv, and AirDistance.csv<br>
 
-Cities.csv: This file is for adding new cities to the map. You can open it to add or delete cities
+## Cities.csv:
+This file is for adding new cities to the map. You can open it to add or delete cities
 Just add the city name and the x and y coordinates to the map image like this:
 
                         city1  x y 
@@ -41,9 +42,10 @@ Just add the city name and the x and y coordinates to the map image like this:
                         Jericho 402.65 583.3
 
 
-<br>
+<br><br><br>
 
-Roads.csv: To add a road between the two cities, you can enter a new road or delete an existing road to add a road that looks like this<br>
+## Roads.csv:
+To add a road between the two cities, you can enter a new road or delete an existing road to add a road that looks like this<br>
   1: Open the Roads.csv file<br>
       2: Add a new line like this:                   <br>
                               
@@ -53,7 +55,11 @@ Roads.csv: To add a road between the two cities, you can enter a new road or del
                               Al-Bireh Sinjil 32.3
                               Al-Bireh Jericho 50.1
 
-AirDistance.csv: In order to search through A* Algorithm, you must have the air distance to the two cities that were chosen. In this way, we have large possibilities and data that are difficult to enter. Therefore, I created this file that calculates the air distance by the difference between the lines of longitude and latitude between the cities using This is the method
+
+<br><br><br>
+
+## AirDistance.csv: 
+In order to search through A* Algorithm, you must have the air distance to the two cities that were chosen. In this way, we have large possibilities and data that are difficult to enter. Therefore, I created this file that calculates the air distance by the difference between the lines of longitude and latitude between the cities using This is the method
 
        public double getDistance(double fromLatitude, double fromLongitude, double toLatitude, double toLongitude) {
 
