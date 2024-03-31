@@ -12,10 +12,6 @@ Welcome to the Palestine Map Project! This project is a Java-based program that 
 
 1. Clone the repository:
 
-     
-    git clone https://github.com/yourusername/palestine-map-project.git](https://github.com/khaled7hasan7/ai_project2.git)
- 
-
 2. Open the project in your favorite Java IDE.
 
 3. Compile and run the `mainAIProject.class` file to start the program.
