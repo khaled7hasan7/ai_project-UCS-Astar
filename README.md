@@ -34,7 +34,7 @@ You have three files: Roads.csv, Cities.csv, and AirDistance.csv<br>
 This file is for adding new cities to the map. You can open it to add or delete cities
 Just add the city name and the x and y coordinates to the map image like this:
 
-                        city1  x y 
+                        city  x y 
                         Jerusalem 329.333 599.33
                         Ramallah 320.0 551.3333
                         Hebron 296.66 697.3
@@ -49,7 +49,7 @@ To add a road between the two cities, you can enter a new road or delete an exis
   1: Open the Roads.csv file<br>
       2: Add a new line like this:                   <br>
                               
-                              city1  city1 Distance
+                              city1  city2 Distance
                               Ramallah Al-Bireh 2.5
                               Ramallah Beitunia 4.1
                               Al-Bireh Sinjil 32.3
